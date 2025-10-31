@@ -8,6 +8,8 @@ import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import java.util.Random;
+
 
 public class DeliveryActivity extends AppCompatActivity {
 
@@ -22,6 +24,12 @@ public class DeliveryActivity extends AppCompatActivity {
 
         TextView contacts = findViewById(R.id.contactValue);
         TextView delivery = findViewById(R.id.deliveryTimeValue);
+        TextView summa = findViewById(R.id.totalPriceValue);
+
+        Random random = new Random();
+        int randomNumber = random.nextInt(10000);
+
+        summa.setText(String.valueOf(randomNumber));
 
         Order order = (Order) getIntent().getSerializableExtra("ORDER");
 
@@ -42,6 +50,8 @@ public class DeliveryActivity extends AppCompatActivity {
 
             contacts.setText(getName + "\n" + getTelephone + "\n" + getAdress);
             delivery.setText(getDeliveryDate);
+
+
         }
     }
 

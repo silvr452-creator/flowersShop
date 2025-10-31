@@ -8,6 +8,17 @@
     <string name="nameTextView">Имя *</string>
     <string name="deliveryTextView">Данные для доставки</string>
     <string name="dateDeliveryTextView">Дата доставки</string>
-    <string name="dateDeliveryEditText">ММ:ДД , ЧЧ:ММ</string>
+    <string name="dateDeliveryEditText">ЧЧ:ММ</string>
     <string name="submitButton">Подтвердить</string>
+    <string name="detailOrder">Детали заказа</string>
+    <string name="flowerName">Букет:</string>
+    <string name="numberFlower">Количество цветов:</string>
+    <string name="decorationFlower">Украшение:</string>
+    <string name="customer">Контактные данные:</string>
+    <string name="delivery">Время доставки:</string>
+    <string name="summ">Итоговая стоимость:</string>
+    <string name="submitOrder">Подтверждение заказа</string>
+    <string name="editOrder">Изменить заказ</string>
+    <string name="comment1">Спасибо, что выбрали наш сервис!</string>
+    <string name="comment2">Проверьте правильность данных перед отправкой заказа.</string>
 </resources>
